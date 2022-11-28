@@ -10,7 +10,11 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/app.js"
+            "dest": "/index.js"
+        },
+        {
+            "src": "/getid",
+            "dest": "/index.js"
         }
     ]
 }
